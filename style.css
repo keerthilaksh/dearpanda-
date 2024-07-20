@@ -1,0 +1,58 @@
+h1 {
+    color:white;
+    font-family: Arial, sans-serif;
+}
+h2 {
+    color:white;
+    font-family: Arial, sans-serif;
+}
+#a{
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+body, html {
+   
+    height: 100%;
+}
+
+.animated-background {
+    background: linear-gradient(to right, #833ab4, #fd1d1d, #fcb045);
+    background-size: 400% 400%;
+    animation: animate-background 10s infinite ease-in-out;
+    
+    
+    
+    
+  
+}
+
+@keyframes animate-background {
+    0% {
+        background-position: 0 100%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0 100%;
+    }
+}
+img {
+    size: 5rem; 
+}
